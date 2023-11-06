@@ -1,0 +1,57 @@
+.container {
+    width: min(100% - 50vw, 1128px);
+    margin-inline: auto;
+  }
+  body {
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+
+  }
+  h1 {
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 40px;
+  }
+  form {
+    background-color: #333;
+    color: #fff;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: start;
+    padding: 40px;
+    gap: 10px;
+
+  }
+  input {
+    height: 30px;
+    width: 100%;
+
+  }
+  .inner-form {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    /* gap: ; */
+  }
+  .sub {
+    background-color: #333;
+    color:#fff ;
+    cursor: pointer;
+    text-align: start;
+    width: 100px;
+    text-align: center;
+  }
+  .error {
+    background-color: #333;
+    color: #fff;
+    padding: 5px;
+    margin: 5px;
+    width: 150px;
+    font-size: 10px;
+}
