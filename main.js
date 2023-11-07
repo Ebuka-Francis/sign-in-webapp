@@ -18,18 +18,21 @@ function myFunction(callback){
     if(lastName.value === ''){
         alert("Lastname cannot be blank")
     }
-    if(email.value === '' ){
-        alert("input email")
+    if(email.value === '' || email.value.includes('@') === 'true'){
+        alert("input valid email")
     }
+    // else if(email.value.includes('@') === 'true'){
+    //     alert('incorrect email')
+    // }
     if(password.value === '') {
         alert("password cannot be empty")
     } 
     if(password.value !== confirmPassword.value) {
         alert("password not the same")
     }else {
-
+        alert('sign up successful')
     }
-
+    // callback()
 
 }
 
