@@ -12,6 +12,7 @@ let submit = document.querySelector("#submit");
 // function myFunction(callback){
 //     callback.preventDefault()
 
+
 //     if(firstName.value === "") {
 //         alert("Firstname can not be blank")
 //     }
@@ -32,14 +33,7 @@ let submit = document.querySelector("#submit");
 
 // }
 
-// let myForm = document.querySelector("#form");
-// let firstName = document.querySelector("#firstname");
-// let lastName = document.querySelector("#lastname");
-// let email = document.querySelector("#email");
-// let password = document.querySelector("#password");
-// let confirmPassword = document.querySelector("#confirm-password");
-// let msg = document.querySelector(".msg");
-// let submit = document.querySelector("#submit");
+
 
 myForm.addEventListener("submit", async function (event) {
   event.preventDefault();
@@ -67,6 +61,7 @@ myForm.addEventListener("submit", async function (event) {
     }
   }
 });
+
 
 // Function to simulate an async request to the server
 function simulateServerRequest() {
